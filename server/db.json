@@ -1,14 +1,19 @@
 {
     "posts": [
         {
-            "_id": 1,
-            "content": "some content here",
+            "id": 1,
+            "content": "Brah brah...",
             "author": "Pesho"
         },
         {
-            "_id": 2,
-            "content": "some content here 2",
-            "author": "Gosho"
+            "id": 2,
+            "content": "what color is your bugatti?",
+            "author": "TopG"
+        },
+        {
+            "id": 3,
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias laudantium molestias at facere reprehenderit cum ut ipsam iste numquam. Vitae sapiente beatae atque. At aut maxime earum quibusdam aliquid ex.",
+            "author": "Enot"
         }
     ]
 }
