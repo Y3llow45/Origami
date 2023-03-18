@@ -4,7 +4,7 @@ import NavigationItem from './NavigationItem/NavigationItem';
 const Header = () => {
     return (
         <nav className={style.navigation}>
-            <ul >
+            <ul>
                 <li className="listItem"><img src="/white-origami-bird.png" alt="white origami" /></li>
                 <NavigationItem>Going to 1</NavigationItem>
                 <NavigationItem>Going to 2</NavigationItem>
