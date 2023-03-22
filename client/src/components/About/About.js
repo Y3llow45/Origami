@@ -4,13 +4,6 @@ const About = ({
     match,
     history
 }) => {
-    // if (Math.random() > 0.6) {
-    //     return <Redirect to="/" />
-        //  history.push('/');
-         
-        //  return null;
-    // }
-
     return (
         <main className="main-container">
             <h1>About {match.params.name} Page</h1>

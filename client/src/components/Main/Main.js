@@ -6,12 +6,12 @@ const Main = ({
 }) => {
     return (
         <main className="main-container">
-            <h1>Soooooooome Heading</h1>
+            <h1>Soooooooooome Heading</h1>
 
             <div className="posts">
-                {posts.map(x => 
-                    <Post 
-                        key={x.id} 
+                {posts.map(x =>
+                    <Post
+                        key={x.id}
                         content={x.content}
                         author={x.author}
                     />
