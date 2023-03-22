@@ -9,9 +9,9 @@ const Main = ({
             <h1>Soooooooome Heading</h1>
 
             <div className="posts">
-                {posts.map(x =>
-                    <Post
-                        key={x.id}
+                {posts.map(x => 
+                    <Post 
+                        key={x.id} 
                         content={x.content}
                         author={x.author}
                     />

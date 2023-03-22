@@ -16,8 +16,8 @@ const Menu = ({
 
     return (
         <aside className="menu">
-            {MENU_ITEMS.map(x =>
-                <MenuItem
+            {MENU_ITEMS.map(x => 
+                <MenuItem 
                     key={x.id}
                     id={x.id}
                     isSelected={x.id == currentItem}
