@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:5000';
+const baseUrl = 'http://localhost:2929';
 
 export default {
     posts: `${baseUrl}/posts`,
